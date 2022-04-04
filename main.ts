@@ -44,44 +44,67 @@ input.onButtonPressed(Button.A, function () {
 basic.forever(function () {
     basic.showLeds(`
         . . . . .
-        . . . . #
-        . . . # #
-        . . . . #
-        . . . # .
+        . . . . .
+        . . . . .
+        . . . . .
+        # # # # #
         `)
     basic.showLeds(`
-        . . . . .
-        . . . # .
-        . . # # #
-        . . . # .
-        . . # . #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . # . .
-        . # # # .
-        . . # . .
         . # . # .
+        . . . . .
+        . . . . .
+        . . . . .
+        # # # # #
         `)
     basic.showLeds(`
+        . # . . .
+        . # . # .
         . . . . .
-        . # . . .
-        # # # . .
-        . # . . .
-        # . # . .
+        . . . . .
+        # # # # #
         `)
     basic.showLeds(`
+        . . . . #
+        . # . . .
+        . # . # .
         . . . . .
+        # # # # #
+        `)
+    basic.showLeds(`
         # . . . .
+        . . . . #
+        . # . . .
+        . # . # .
+        # # # # #
+        `)
+    basic.showLeds(`
+        # . . # .
+        # . . . .
+        . # . . #
+        . # . # .
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . # # .
+        # . . # .
         # # . . .
-        # . . . .
-        . # . . .
+        . # . # #
+        # # # # #
         `)
     basic.showLeds(`
-        . . . . .
-        . . . . .
         # . . . .
-        . . . . .
-        # . . . .
+        . . # # .
+        # # . # .
+        # # . # #
+        # # # # #
         `)
+    basic.showLeds(`
+        # . . . #
+        # . . # .
+        # # # # .
+        # # . # #
+        # # # # #
+        `)
+    basic.clearScreen()
+    basic.showString("TETRIS")
 })
