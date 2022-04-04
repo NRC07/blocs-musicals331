@@ -42,5 +42,46 @@ input.onButtonPressed(Button.A, function () {
     music.playTone(294, music.beat(BeatFraction.Double))
 })
 basic.forever(function () {
-	
+    basic.showLeds(`
+        . . . . .
+        . . . . #
+        . . . # #
+        . . . . #
+        . . . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . # .
+        . . # # #
+        . . . # .
+        . . # . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # # # .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . # . . .
+        # # # . .
+        . # . . .
+        # . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        # . . . .
+        # # . . .
+        # . . . .
+        . # . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        # . . . .
+        . . . . .
+        # . . . .
+        `)
 })
